@@ -1,0 +1,19 @@
+<HTML>
+<HEAD>
+<link rel="STYLESHEET" href="http://3dweg.brgm.fr/weg.css" type="text/css">
+<SCRIPT LANGUAGE = "Javascript">
+function fenetre(adresse) {
+var fen = null;
+fen = window.open(adresse , "","screenX=600,screenY=600,location=yes,hotkeys=yes,directories=yes,menubar=yes,scrollbars=yes,toolbar=yes,status=yes,resizable=yes");
+if (!fen.opener) fen.opener = self;
+}
+</SCRIPT>
+<TITLE>Logos</TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+<PARAM NAME="SRC" VALUE="../vrml/main.wrl">
+<A HREF="javascript:fenetre('http://3dweg.brgm.fr')" alt="BRGM site"><IMG SRC="http://3dweg.brgm.fr/images/Editeur.jpg"   BORDER=0 NAME="3DWEG" ALIGN=CENTER></A>
+</CENTER>
+</BODY>
+</HTML>

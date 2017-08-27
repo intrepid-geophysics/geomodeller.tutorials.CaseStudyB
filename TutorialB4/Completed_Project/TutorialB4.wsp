@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<DockingDesktop version="2.0">
+<DockingPanel>
+<Split orientation="1" location="0.5496894409937888">
+<Split orientation="1" location="0.2448210922787194">
+<Dockable>
+<Key dockName="Explore"/>
+</Dockable>
+<Dockable>
+<Key dockName="Map_DTM"/>
+</Dockable>
+</Split>
+<Dockable>
+<Key dockName="3D View"/>
+</Dockable>
+</Split>
+</DockingPanel>
+<TabGroups>
+</TabGroups>
+</DockingDesktop>

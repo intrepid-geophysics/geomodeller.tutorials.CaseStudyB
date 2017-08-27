@@ -1,0 +1,111 @@
+<HTML>
+<SCRIPT LANGUAGE = "Javascript">
+// send event to the main document VRML3D.
+function sendEvent(node, field, value){
+   main.document.VRML3D.setNodeEventIn(node, field, value);
+}
+// To hide or show the XYAxis 
+function tog_XYAxis(v) {
+  if (v) sendEvent('XYAxis','set_whichChoice','0');
+  else sendEvent('XYAxis','set_whichChoice','-1');
+}
+// To hide or show the YZAxis 
+function tog_YZAxis(v) {
+  if (v) sendEvent('YZAxis','set_whichChoice','0');
+  else sendEvent('YZAxis','set_whichChoice','-1');
+}
+// To hide or show the XZAxis 
+function tog_XZAxis(v) {
+  if (v) sendEvent('XZAxis','set_whichChoice','0');
+  else sendEvent('XZAxis','set_whichChoice','-1');
+}
+// To hide or show the formation: Green
+function tog_Green(v) {
+  if (v) sendEvent('Green','set_whichChoice','0');
+  else sendEvent('Green','set_whichChoice','-1');
+}
+// To hide or show the formation: LowerPink
+function tog_LowerPink(v) {
+  if (v) sendEvent('LowerPink','set_whichChoice','0');
+  else sendEvent('LowerPink','set_whichChoice','-1');
+}
+// To hide or show the formation: Plum
+function tog_Plum(v) {
+  if (v) sendEvent('Plum','set_whichChoice','0');
+  else sendEvent('Plum','set_whichChoice','-1');
+}
+// To hide or show the formation: LowerGrey
+function tog_LowerGrey(v) {
+  if (v) sendEvent('LowerGrey','set_whichChoice','0');
+  else sendEvent('LowerGrey','set_whichChoice','-1');
+}
+// To hide or show the formation: UpperGrey
+function tog_UpperGrey(v) {
+  if (v) sendEvent('UpperGrey','set_whichChoice','0');
+  else sendEvent('UpperGrey','set_whichChoice','-1');
+}
+// To hide or show the formation: Orange
+function tog_Orange(v) {
+  if (v) sendEvent('Orange','set_whichChoice','0');
+  else sendEvent('Orange','set_whichChoice','-1');
+}
+// To hide or show the formation: UpperPink
+function tog_UpperPink(v) {
+  if (v) sendEvent('UpperPink','set_whichChoice','0');
+  else sendEvent('UpperPink','set_whichChoice','-1');
+}
+// To hide or show the formation: Blue
+function tog_Blue(v) {
+  if (v) sendEvent('Blue','set_whichChoice','0');
+  else sendEvent('Blue','set_whichChoice','-1');
+}
+// To hide or show the formation: Cover
+function tog_Cover(v) {
+  if (v) sendEvent('Cover','set_whichChoice','0');
+  else sendEvent('Cover','set_whichChoice','-1');
+}
+// Vertical scale management
+          scale1 = "1 1 1";
+function verticalScale_exag(scale){
+          scale2 = scale;
+          scaleValue = "[" + scale1 + "," + scale2 + "]";
+          scale1 = scale;
+          sendEvent("Start","enabled","TRUE");
+          sendEvent("Start","stopTime","0");
+          sendEvent("ModelScale","keyValue",scaleValue);
+}
+// Management of view points.
+function pointOf_view(view){
+  if (view) var viewno = 'Viewpoint' + view;
+    sendEvent(viewno,'set_bind','TRUE');
+}
+// Spin start
+function but_spin(){
+  sendEvent('AnimateTIS','enabled','TRUE');
+  sendEvent('AnimateTIS','loop','TRUE');
+}
+// Stop spin
+function but_stop(){
+  sendEvent('AnimateTIS','loop','FALSE');
+}
+// Management of texture.
+function texture(num){
+    sendEvent('TextureFamily','set_whichChoice',num);
+}
+</SCRIPT>
+<TITLE>3D VRML of TutorialB5Study</TITLE>
+<FRAMESET ROWS="20%, *" FRAMEBORDER=2>
+<FRAME SRC="html/title.html" NAME="title" SCROLLING = "NO">
+<FRAMESET COLS="30%, *, 20%" FRAMEBORDER=2>
+<FRAMESET ROWS="79.5%, *" FRAMEBORDER=2>
+<FRAME SRC="html/controls.html" NAME="side">
+<FRAME SRC="html/logo.html" NAME="logos">
+</FRAMESET>
+<FRAME SRC="html/model.html" NAME="main">
+<FRAMESET ROWS="80%, *" FRAMEBORDER=2>
+<FRAME SRC="html/view_controls.html" NAME="controls">
+</FRAMESET>
+</FRAMESET>
+</FRAMESET>
+<NOFRAMES> This page uses frames </NOFRAMES>
+</HTML>

@@ -1,0 +1,197 @@
+<HTML>
+<HEAD>
+<link rel="STYLESHEET" href="http://3dweg.brgm.fr/weg.css" type="text/css">
+<TITLE>Controls</TITLE>
+</HEAD>
+<BODY>
+<FORM name="controls">
+<TABLE>
+<TR>
+<TD></TD><TD><BIG><B>Viewpoints</B></BIG></TD><TD></TD>
+</TR>
+<TR>
+<TD>N</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('1')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('2')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>NE</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('3')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('4')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>E</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('5')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('6')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>SE</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('7')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('8')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>S</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('9')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('10')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>SW</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('11')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('12')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>W</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('13')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('14')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>NW</TD>
+<TD>
+<input type="button" name="Plan" onClick="parent.pointOf_view('15')" value="Plan" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+<TD>
+<input type="button" name="Perspective" onClick="parent.pointOf_view('16')" value="Perspective" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+</TABLE>
+<BR>
+<TABLE>
+<TR>
+<TD COLSPAN=2>
+<BIG><B>Vertical Scale Model</B></BIG>
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="exag_1" onClick="parent.verticalScale_exag('1 1 1')" value="1:1"  style="width:50;border:1 SOLID #e6e6e6;">
+</TD>
+<TR>
+<TD>
+<input type="button" name="exag_2" onClick="parent.verticalScale_exag('1 1 2')" value="2:1"  style="width:50;border:1 SOLID #e6e6e6;">
+</TD>
+<TR>
+<TD>
+<input type="button" name="exag_5" onClick="parent.verticalScale_exag('1 1 5')" value="5:1"  style="width:50;border:1 SOLID #e6e6e6;">
+</TD>
+<TR>
+<TD>
+<input type="button" name="exag_10" onClick="parent.verticalScale_exag('1 1 10')" value="10:1"  style="width:50;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+</TABLE>
+<BR>
+<TABLE>
+<TR>
+<TD>
+<BIG><B>Spin Model</B></BIG>
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="spin" onClick="parent.but_spin()" value="Start" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="stopspin" onClick="parent.but_stop()" value="Stop" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+</TABLE>
+<TABLE>
+<TR>
+<TD>
+<BIG><B>Texture Model</B></BIG>
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Reset" onClick="parent.texture(0)" value="Reset" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Amphibolite" onClick="parent.texture(1)" value="Amphibolite" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Argile" onClick="parent.texture(2)" value="Argile" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Calcaire" onClick="parent.texture(3)" value="Calcaire" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Conglomerat" onClick="parent.texture(4)" value="Conglomerat" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Gabbro" onClick="parent.texture(5)" value="Gabbro" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Gneiss" onClick="parent.texture(6)" value="Gneiss" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Granite" onClick="parent.texture(7)" value="Granite" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Gres" onClick="parent.texture(8)" value="Gres" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Migmatites" onClick="parent.texture(9)" value="Migmatites" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Pli" onClick="parent.texture(10)" value="Pli" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+<TR>
+<TD>
+<input type="button" name="Shiste" onClick="parent.texture(11)" value="Shiste" style="width:100;border:1 SOLID #e6e6e6;">
+</TD>
+</TR>
+</TABLE>
+</FORM>
+</BODY>
+</HTML>

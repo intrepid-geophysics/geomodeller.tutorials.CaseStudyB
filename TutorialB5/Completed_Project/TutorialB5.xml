@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<Project3DEdit xmlns="http://www.geomodeller.com/geo" projectName="CaseStudyB" author="" version="1.0" description="" date="13/ 2/2006 17:22:36" CoordSystem="Local" unit="M" precision="1" deflection2d="0.001" deflection3d="0.001" discretisation="10" pickingFactor="1" dynamicSelection="true" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <Extent3DOfProject>
+    <ExtentBox3D>
+      <Extent3D>
+        <ExtentXY Xmin="10000" Ymin="20000" Xmax="14000" Ymax="23700"/>
+        <ExtentZ Zmin="-1000" Zmax="100"/>
+      </Extent3D>
+      <GraphicTitle Title="CaseStudyB">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+        <Location>
+          <gml:coordinates>10000,20000,-1000</gml:coordinates>
+        </Location>
+      </GraphicTitle>
+      <GraphicBox3d>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicBox3d>
+      <GraphicTick OnOff="true" DensityAlongX="3" DensityAlongY="3" DensityAlongZ="2" TickLength="148">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicTick>
+      <GraphicLabel OnOff="true" LabelFormat="%.1f">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicLabel>
+    </ExtentBox3D>
+    <TriAxis>
+      <Axis3DDefinition OnOff="true" Radius="20" Step="400" Size="80" LabelOrigin="" LabelX="" LabelY="" LabelZ="">
+        <gml:Point>
+          <gml:coordinates>9600,19600,-1000</gml:coordinates>
+        </gml:Point>
+        <Length LengthX="400" LengthY="400" LengthZ="400"/>
+      </Axis3DDefinition>
+      <GraphicOrigin>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicOrigin>
+      <GraphicAxisX>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisX>
+      <GraphicAxisY>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisY>
+      <GraphicAxisZ>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisZ>
+    </TriAxis>
+  </Extent3DOfProject>
+
+  <Formations>
+    <Formation Name="Blue">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="237" Green="133" Red="28"/>
+        <ColorWireFrame Blue="237" Green="133" Red="28"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Cover">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="112" Green="255" Red="202"/>
+        <ColorWireFrame Blue="112" Green="255" Red="202"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Green">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="49" Green="205" Red="49"/>
+        <ColorWireFrame Blue="49" Green="205" Red="49"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="LowerGrey">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="204" Green="204" Red="204"/>
+        <ColorWireFrame Blue="204" Green="204" Red="204"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="LowerPink">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="154" Green="211" Red="255"/>
+        <ColorWireFrame Blue="154" Green="211" Red="255"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Orange">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="73" Green="154" Red="237"/>
+        <ColorWireFrame Blue="73" Green="154" Red="237"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Plum">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="117" Green="15" Red="205"/>
+        <ColorWireFrame Blue="117" Green="15" Red="205"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="UpperGrey">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="153" Green="153" Red="153"/>
+        <ColorWireFrame Blue="153" Green="153" Red="153"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="UpperPink">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="184" Green="174" Red="255"/>
+        <ColorWireFrame Blue="184" Green="174" Red="255"/>
+      </Graphic>
+    </Formation>
+  </Formations>
+
+  <Faults>
+    <Fault Name="ENE">
+      <FaultGeology RADIUS_OF_INFLUENCE="0" THICKNESS="0" DIP="0" BEARING="0" RHEOLOGY="0" TYPE_NOT_IN_USE=""/>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="68" Green="138" Red="0"/>
+        <ColorWireFrame Blue="68" Green="138" Red="0"/>
+      </Graphic>
+    </Fault>
+    <Fault Name="WNW">
+      <FaultGeology RADIUS_OF_INFLUENCE="0" THICKNESS="0" DIP="0" BEARING="0" RHEOLOGY="0" TYPE_NOT_IN_USE=""/>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="112" Green="24" Red="24"/>
+        <ColorWireFrame Blue="112" Green="24" Red="24"/>
+      </Graphic>
+      <StopsOnFault Name="ENE"/>
+    </Fault>
+  </Faults>
+
+  <Sections>
+    <Section Name="Case_B_Section1" IsAxialSurface="false">
+      <OutputGraphicalData>
+        <FormationBoundaryList>
+          <Data Name="ENE"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">1884.53,-1000 1884.84,-977.551 1885.15,-955.102 1885.45,-932.653 1885.75,-910.204 1886.04,-887.755 1886.33,-865.306 1886.62,-842.857 1886.89,-820.408 1887.17,-797.959 1887.44,-775.51 1887.7,-753.061 1887.96,-730.612 1888.21,-708.163 1888.45,-685.714 1888.7,-663.265 1888.93,-640.816 1889.16,-618.367 1889.38,-595.918 1889.6,-573.469 1889.81,-551.02 1890.02,-528.571 1890.22,-506.122 1890.41,-483.673 1890.59,-461.224 1890.77,-438.776 1890.94,-416.327 1891.11,-393.878 1891.27,-371.429 1891.42,-348.98 1891.56,-326.531 1891.69,-304.082 1891.82,-281.633 1891.94,-259.184 1892.05,-236.735 1892.15,-214.286 1892.24,-191.837 1892.32,-169.388 1892.39,-146.939 1892.46,-124.49 1892.51,-102.041 1892.55,-79.5918 1892.58,-57.1429 1892.61,-34.6939 1892.62,-12.2449 1892.62,-0.000996492 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="ENE"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">1884.53,-1000 1884.84,-977.551 1885.15,-955.102 1885.45,-932.653 1885.75,-910.204 1886.04,-887.755 1886.33,-865.306 1886.62,-842.857 1886.89,-820.408 1887.17,-797.959 1887.44,-775.51 1887.7,-753.061 1887.96,-730.612 1888.21,-708.163 1888.45,-685.714 1888.7,-663.265 1888.93,-640.816 1889.16,-618.367 1889.38,-595.918 1889.6,-573.469 1889.81,-551.02 1890.02,-528.571 1890.22,-506.122 1890.41,-483.673 1890.59,-461.224 1890.77,-438.776 1890.94,-416.327 1891.11,-393.878 1891.27,-371.429 1891.42,-348.98 1891.56,-326.531 1891.69,-304.082 1891.82,-281.633 1891.94,-259.184 1892.05,-236.735 1892.15,-214.286 1892.24,-191.837 1892.32,-169.388 1892.39,-146.939 1892.46,-124.49 1892.51,-102.041 1892.55,-79.5918 1892.58,-57.1429 1892.61,-34.6939 1892.62,-12.2449 1892.62,-0.000996492 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+        </FormationBoundaryList>
+        <FormationPolygonList>
+          <Data Name="UpperPink"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">1892.56,-73.3418 1843.53,-79.0092 1838.49,-79.5918 1759.73,-88.6157 1675.94,-93.6734 1592.14,-93.4525 1508.34,-87.4386 1451.46,-79.5918 1424.55,-75.8471 1340.75,-59.582 1330.35,-57.1429 1256.95,-39.8255 1237.32,-34.6939 1173.16,-17.8745 1152.52,-12.2449 1107.63,-0.000996492 1173.16,-0.000996492 1256.95,-0.000996492 1340.75,-0.000996492 1424.55,-0.000996492 1508.34,-0.000996492 1592.14,-0.000996492 1675.94,-0.000996492 1759.73,-0.000996492 1843.53,-0.000996492 1892.58,-0.000996492 1892.62,-0.000996492 1892.62,-12.2449 1892.61,-34.6939 1892.58,-57.1429 1892.56,-73.3418 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="Orange"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">1892.26,-184.977 1843.53,-190.17 1827.89,-191.837 1759.73,-199.031 1675.94,-203.462 1592.14,-202.992 1508.34,-197.311 1465.58,-191.837 1424.55,-186.531 1340.75,-171.254 1332.38,-169.388 1256.95,-152.393 1235.37,-146.939 1173.16,-131.076 1148.63,-124.49 1089.36,-108.488 1065.66,-102.041 1005.56,-85.6597 982.841,-79.5918 921.765,-63.2905 897.835,-57.1429 837.969,-41.7928 808.911,-34.6939 754.172,-21.3525 714.973,-12.2449 670.375,-1.89658 660.687,-0.000996492 670.375,-0.000996492 754.172,-0.000996492 837.969,-0.000996492 921.765,-0.000996492 1005.56,-0.000996492 1089.36,-0.000996492 1107.63,-0.000996492 1152.52,-12.2449 1173.16,-17.8745 1237.32,-34.6939 1256.95,-39.8255 1330.35,-57.1429 1340.75,-59.582 1424.55,-75.8471 1451.46,-79.5918 1508.34,-87.4386 1592.14,-93.4525 1675.94,-93.6734 1759.73,-88.6157 1838.49,-79.5918 1843.53,-79.0092 1892.56,-73.3418 1892.58,-57.1429 1892.61,-34.6939 1892.62,-12.2449 1892.62,-0.000996492 1927.33,-0.000996492 2011.12,-0.000996492 2094.92,-0.000996492 2178.72,-0.000996492 2262.52,-0.000996492 2331.87,-0.000996492 2287.78,-12.2449 2262.52,-19.2807 2209.17,-34.6939 2178.72,-43.4921 2130.72,-57.1429 2094.92,-67.2623 2046.44,-79.5918 2011.12,-88.4922 1946.22,-102.041 1927.33,-105.951 1892.48,-113.164 1892.46,-124.49 1892.41,-140.135 1892.39,-146.939 1892.32,-169.388 1892.31,-171.606 1892.26,-184.977 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="Orange"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">4106.04,-21.0136 4055.84,-12.2449 4022.25,-6.36907 3988.73,-0.000996492 4022.25,-0.000996492 4106.04,-0.000996492 4106.04,-21.0136 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="UpperGrey"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">1892.16,-212.064 1876.45,-214.286 1843.53,-218.94 1759.73,-227.59 1675.94,-231.861 1592.14,-231.333 1508.34,-225.744 1424.55,-215.209 1419.32,-214.286 1340.75,-200.235 1302.53,-191.837 1256.95,-181.699 1207.73,-169.388 1173.16,-160.653 1121.76,-146.939 1089.36,-138.238 1038.69,-124.49 1005.56,-115.477 955.25,-102.041 921.765,-93.0985 869.276,-79.5918 837.969,-71.5489 779.14,-57.1429 754.172,-51.0425 683.645,-34.6939 670.375,-31.6124 586.578,-15.135 567.115,-12.2449 502.781,-2.75074 476.412,-0.000996492 502.781,-0.000996492 586.578,-0.000996492 660.687,-0.000996492 670.375,-1.89658 714.973,-12.2449 754.172,-21.3525 808.911,-34.6939 837.969,-41.7928 897.835,-57.1429 921.765,-63.2905 982.841,-79.5918 1005.56,-85.6597 1065.66,-102.041 1089.36,-108.488 1148.63,-124.49 1173.16,-131.076 1235.37,-146.939 1256.95,-152.393 1332.38,-169.388 1340.75,-171.254 1424.55,-186.531 1465.58,-191.837 1508.34,-197.311 1592.14,-202.992 1675.94,-203.462 1759.73,-199.031 1827.89,-191.837 1843.53,-190.17 1892.26,-184.977 1892.24,-191.837 1892.16,-212.064 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="UpperGrey"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">2448.41,-0.000996492 2430.11,-4.2803 2399.34,-12.2449 2346.31,-26.0212 2315.17,-34.6939 2262.52,-49.3896 2235.68,-57.1429 2178.72,-73.57 2157.42,-79.5918 2094.92,-97.1161 2075.37,-102.041 2011.12,-118.056 1979.99,-124.49 1927.33,-135.276 1892.41,-140.135 1892.46,-124.49 1892.48,-113.164 1927.33,-105.951 1946.22,-102.041 2011.12,-88.4922 2046.44,-79.5918 2094.92,-67.2623 2130.72,-57.1429 2178.72,-43.4921 2209.17,-34.6939 2262.52,-19.2807 2287.78,-12.2449 2331.87,-0.000996492 2346.31,-0.000996492 2430.11,-0.000996492 2448.41,-0.000996492 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="UpperGrey"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">4106.04,-51.1248 4022.25,-36.5198 4012.62,-34.6939 3938.45,-20.6139 3896.15,-12.2449 3854.66,-4.03353 3834.3,-0.000996492 3854.66,-0.000996492 3938.45,-0.000996492 3988.73,-0.000996492 4022.25,-6.36907 4055.84,-12.2449 4106.04,-21.0136 4106.04,-21.0138 4106.04,-51.1248 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="LowerGrey"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">0.001,-0.000996492 0,-0.000996492 0.001,-0.000996492 83.7969,-0.000996492 167.594,-0.000996492 251.391,-0.000996492 335.187,-0.000996492 418.984,-0.000996492 476.412,-0.000996492 502.781,-2.75074 567.115,-12.2449 586.578,-15.135 670.375,-31.6124 683.645,-34.6939 754.172,-51.0425 779.14,-57.1429 837.969,-71.5489 869.276,-79.5918 921.765,-93.0985 955.25,-102.041 1005.56,-115.477 1038.69,-124.49 1089.36,-138.238 1121.76,-146.939 1173.16,-160.653 1207.73,-169.388 1256.95,-181.699 1302.53,-191.837 1340.75,-200.235 1419.32,-214.286 1424.55,-215.209 1508.34,-225.744 1592.14,-231.333 1675.94,-231.861 1759.73,-227.59 1843.53,-218.94 1876.45,-214.286 1892.16,-212.064 1892.15,-214.286 1892.05,-236.735 1892.01,-243.881 1843.53,-248.759 1759.73,-257.191 1719.2,-259.184 1675.94,-261.293 1592.14,-260.713 1568.69,-259.184 1508.34,-255.226 1424.55,-244.93 1377.34,-236.735 1340.75,-230.303 1266.79,-214.286 1256.95,-212.128 1174.91,-191.837 1173.16,-191.397 1090.06,-169.388 1089.36,-169.201 1007.02,-146.939 1005.56,-146.545 922.917,-124.49 921.765,-124.182 837.969,-102.595 835.709,-102.041 754.172,-82.0434 743.503,-79.5918 670.375,-62.7256 642.063,-57.1429 586.578,-46.2134 509.522,-34.6939 502.781,-33.6924 418.984,-24.8965 335.187,-19.4051 251.391,-16.8466 167.594,-16.8298 83.7969,-18.9487 0.001,-22.7901 0.001,-0.000996492 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="LowerGrey"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">2588.69,-0.000996492 2530.9,-12.2449 2513.91,-15.8541 2433.66,-34.6939 2430.11,-35.531 2347.2,-57.1429 2346.31,-57.3739 2266.8,-79.5918 2262.52,-80.7882 2188.59,-102.041 2178.72,-104.865 2108.08,-124.49 2094.92,-128.104 2018.4,-146.939 2011.12,-148.707 1927.33,-165.659 1905.37,-169.388 1892.31,-171.606 1892.32,-169.388 1892.39,-146.939 1892.41,-140.135 1927.33,-135.276 1979.99,-124.49 2011.12,-118.056 2075.37,-102.041 2094.92,-97.1161 2157.42,-79.5918 2178.72,-73.57 2235.68,-57.1429 2262.52,-49.3896 2315.17,-34.6939 2346.31,-26.0212 2399.34,-12.2449 2430.11,-4.2803 2448.41,-0.000996492 2513.91,-0.000996492 2588.69,-0.000996492 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="LowerGrey"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">4106.04,-82.4036 4089.81,-79.5918 4022.25,-67.8568 3965.61,-57.1429 3938.45,-51.9971 3854.66,-35.432 3850.93,-34.6939 3770.86,-18.8178 3736.58,-12.2449 3687.06,-2.76286 3671.62,-0.000996492 3687.06,-0.000996492 3770.86,-0.000996492 3834.3,-0.000996492 3854.66,-4.03353 3896.15,-12.2449 3938.45,-20.6139 4012.62,-34.6939 4022.25,-36.5198 4106.04,-51.1248 4106.04,-51.125 4106.04,-82.4036 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="Plum"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">0.001,-22.7901 0,-22.7901 0.001,-22.7901 83.7969,-18.9487 167.594,-16.8298 251.391,-16.8466 335.187,-19.4051 418.984,-24.8965 502.781,-33.6924 509.522,-34.6939 586.578,-46.2134 642.063,-57.1429 670.375,-62.7256 743.503,-79.5918 754.172,-82.0434 835.709,-102.041 837.969,-102.595 921.765,-124.182 922.917,-124.49 1005.56,-146.545 1007.02,-146.939 1089.36,-169.201 1090.06,-169.388 1173.16,-191.397 1174.91,-191.837 1256.95,-212.128 1266.79,-214.286 1340.75,-230.303 1377.34,-236.735 1424.55,-244.93 1508.34,-255.226 1568.69,-259.184 1592.14,-260.713 1675.94,-261.293 1719.2,-259.184 1759.73,-257.191 1843.53,-248.759 1892.01,-243.881 1892.05,-236.735 1892.15,-214.286 1892.16,-212.064 1892.24,-191.837 1892.26,-184.977 1892.31,-171.606 1905.37,-169.388 1927.33,-165.659 2011.12,-148.707 2018.4,-146.939 2094.92,-128.104 2108.08,-124.49 2178.72,-104.865 2188.59,-102.041 2262.52,-80.7882 2266.8,-79.5918 2346.31,-57.3739 2347.2,-57.1429 2430.11,-35.531 2433.66,-34.6939 2513.91,-15.8541 2530.9,-12.2449 2588.69,-0.000996492 2597.7,-0.000996492 2681.5,-0.000996492 2765.3,-0.000996492 2849.09,-0.000996492 2932.89,-0.000996492 3016.69,-0.000996492 3100.48,-0.000996492 3184.28,-0.000996492 3268.08,-0.000996492 3351.87,-0.000996492 3435.67,-0.000996492 3519.47,-0.000996492 3603.26,-0.000996492 3671.62,-0.000996492 3687.06,-2.76286 3736.58,-12.2449 3770.86,-18.8178 3850.93,-34.6939 3854.66,-35.432 3938.45,-51.9971 3965.61,-57.1429 4022.25,-67.8568 4089.81,-79.5918 4106.04,-82.4036 4106.04,-82.4037 4106.04,-188.952 4022.25,-174.764 3993.15,-169.388 3938.45,-159.235 3875.22,-146.939 3854.66,-142.925 3770.86,-126.454 3760.57,-124.49 3687.06,-110.434 3640.28,-102.041 3603.26,-95.3993 3519.47,-81.8089 3503.67,-79.5918 3435.67,-70.0626 3351.87,-60.485 3312.49,-57.1429 3268.08,-53.3859 3184.28,-49.0247 3100.48,-47.6158 3016.69,-49.3343 2932.89,-54.2952 2903.96,-57.1429 2849.09,-62.5533 2765.3,-74.0178 2732.72,-79.5918 2681.5,-88.3448 2611.77,-102.041 2597.7,-104.806 2513.91,-123.021 2507.79,-124.49 2430.11,-143.226 2415.99,-146.939 2346.31,-165.265 2331.46,-169.388 2262.52,-188.436 2250.35,-191.837 2178.72,-211.649 2168.74,-214.286 2094.92,-233.515 2081.07,-236.735 2011.12,-252.768 1977.51,-259.184 1927.33,-268.647 1891.86,-274.144 1891.82,-281.633 1891.69,-304.082 1891.59,-321.69 1891.56,-326.531 1891.45,-343.927 1851.63,-348.98 1843.53,-350.007 1759.73,-357.652 1675.94,-361.228 1592.14,-360.51 1508.34,-355.384 1451.37,-348.98 1424.55,-345.936 1340.75,-332.501 1310.77,-326.531 1256.95,-315.665 1206.78,-304.082 1173.16,-296.214 1115.23,-281.633 1089.36,-275.047 1028.75,-259.184 1005.56,-253.065 943.313,-236.735 921.765,-231.052 856.201,-214.286 837.969,-209.608 764.96,-191.837 754.172,-189.203 670.375,-170.385 665.221,-169.388 586.578,-154.123 539.615,-146.939 502.781,-141.32 418.984,-132.158 335.187,-126.363 279.059,-124.49 251.391,-123.573 167.594,-123.371 119.728,-124.49 83.7969,-125.33 0.001,-129.022 0.001,-22.7901 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="Green"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">0.001,-180.844 0,-180.844 0.001,-180.844 83.7969,-177.338 167.594,-175.559 251.391,-175.949 335.187,-178.937 418.984,-184.923 481.196,-191.837 502.781,-194.248 586.578,-207.086 624.058,-214.286 670.375,-223.155 731.705,-236.735 754.172,-241.683 826.838,-259.184 837.969,-261.85 916.144,-281.633 921.765,-283.047 1003.08,-304.082 1005.56,-304.718 1089.36,-326.216 1090.62,-326.531 1173.16,-346.768 1182.91,-348.98 1256.95,-365.528 1287.28,-371.429 1340.75,-381.684 1420.14,-393.878 1424.55,-394.547 1508.34,-403.597 1592.14,-408.548 1675.94,-409.311 1759.73,-405.963 1843.53,-398.685 1883.01,-393.878 1891.12,-392.891 1891.27,-371.429 1891.42,-348.98 1891.45,-343.927 1891.56,-326.531 1891.59,-321.69 1927.33,-318.09 2004.14,-304.082 2011.12,-302.793 2094.92,-284.242 2105.41,-281.633 2178.72,-263.126 2193.49,-259.184 2262.52,-240.524 2276.51,-236.735 2346.31,-217.688 2359.31,-214.286 2430.11,-195.705 2446,-191.837 2513.91,-175.333 2540.85,-169.388 2597.7,-156.89 2648.26,-146.939 2681.5,-140.404 2765.3,-126.183 2777.75,-124.49 2849.09,-114.792 2932.89,-106.559 3009.25,-102.041 3016.69,-101.602 3100.48,-99.9047 3184.28,-101.341 3197.62,-102.041 3268.08,-105.746 3351.87,-112.887 3435.67,-122.486 3449.95,-124.49 3519.47,-134.253 3597.83,-146.939 3603.26,-147.818 3687.06,-162.793 3721.75,-169.388 3770.86,-178.698 3838.38,-191.837 3854.66,-194.992 3938.45,-211.078 3955.97,-214.286 4022.25,-226.355 4084.53,-236.735 4106.04,-240.302 4106.04,-240.302 4106.04,-999.999 1884.53,-999.999 1884.53,-1000 1884.53,-999.999 0.001,-999.999 0.001,-180.844 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="LowerPink"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">0.001,-129.022 0,-129.022 0.001,-129.022 83.7969,-125.33 119.728,-124.49 167.594,-123.371 251.391,-123.573 279.059,-124.49 335.187,-126.363 418.984,-132.158 502.781,-141.32 539.615,-146.939 586.578,-154.123 665.221,-169.388 670.375,-170.385 754.172,-189.203 764.96,-191.837 837.969,-209.608 856.201,-214.286 921.765,-231.052 943.313,-236.735 1005.56,-253.065 1028.75,-259.184 1089.36,-275.047 1115.23,-281.633 1173.16,-296.214 1206.78,-304.082 1256.95,-315.665 1310.77,-326.531 1340.75,-332.501 1424.55,-345.936 1451.37,-348.98 1508.34,-355.384 1592.14,-360.51 1675.94,-361.228 1759.73,-357.652 1843.53,-350.007 1851.63,-348.98 1891.45,-343.927 1891.42,-348.98 1891.27,-371.429 1891.12,-392.891 1883.01,-393.878 1843.53,-398.685 1759.73,-405.963 1675.94,-409.311 1592.14,-408.548 1508.34,-403.597 1424.55,-394.547 1420.14,-393.878 1340.75,-381.684 1287.28,-371.429 1256.95,-365.528 1182.91,-348.98 1173.16,-346.768 1090.62,-326.531 1089.36,-326.216 1005.56,-304.718 1003.08,-304.082 921.765,-283.047 916.144,-281.633 837.969,-261.85 826.838,-259.184 754.172,-241.683 731.705,-236.735 670.375,-223.155 624.058,-214.286 586.578,-207.086 502.781,-194.248 481.196,-191.837 418.984,-184.923 335.187,-178.937 251.391,-175.949 167.594,-175.559 83.7969,-177.338 0.001,-180.844 0.001,-129.022 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+          <Data Name="LowerPink"/>
+          <gml:MultiPolygon srsName="localSectionSystem">
+            <gml:polygonMember>
+              <gml:Polygon>
+                <gml:outerBoundaryIs>
+                  <gml:LinearRing>
+                    <gml:coordinates decimal="." cs="," ts=" ">4106.04,-240.302 4084.53,-236.735 4022.25,-226.355 3955.97,-214.286 3938.45,-211.078 3854.66,-194.992 3838.38,-191.837 3770.86,-178.698 3721.75,-169.388 3687.06,-162.793 3603.26,-147.818 3597.83,-146.939 3519.47,-134.253 3449.95,-124.49 3435.67,-122.486 3351.87,-112.887 3268.08,-105.746 3197.62,-102.041 3184.28,-101.341 3100.48,-99.9047 3016.69,-101.602 3009.25,-102.041 2932.89,-106.559 2849.09,-114.792 2777.75,-124.49 2765.3,-126.183 2681.5,-140.404 2648.26,-146.939 2597.7,-156.89 2540.85,-169.388 2513.91,-175.333 2446,-191.837 2430.11,-195.705 2359.31,-214.286 2346.31,-217.688 2276.51,-236.735 2262.52,-240.524 2193.49,-259.184 2178.72,-263.126 2105.41,-281.633 2094.92,-284.242 2011.12,-302.793 2004.14,-304.082 1927.33,-318.09 1891.59,-321.69 1891.69,-304.082 1891.82,-281.633 1891.86,-274.144 1927.33,-268.647 1977.51,-259.184 2011.12,-252.768 2081.07,-236.735 2094.92,-233.515 2168.74,-214.286 2178.72,-211.649 2250.35,-191.837 2262.52,-188.436 2331.46,-169.388 2346.31,-165.265 2415.99,-146.939 2430.11,-143.226 2507.79,-124.49 2513.91,-123.021 2597.7,-104.806 2611.77,-102.041 2681.5,-88.3448 2732.72,-79.5918 2765.3,-74.0178 2849.09,-62.5533 2903.96,-57.1429 2932.89,-54.2952 3016.69,-49.3343 3100.48,-47.6158 3184.28,-49.0247 3268.08,-53.3859 3312.49,-57.1429 3351.87,-60.485 3435.67,-70.0626 3503.67,-79.5918 3519.47,-81.8089 3603.26,-95.3993 3640.28,-102.041 3687.06,-110.434 3760.57,-124.49 3770.86,-126.454 3854.66,-142.925 3875.22,-146.939 3938.45,-159.235 3993.15,-169.388 4022.25,-174.764 4106.04,-188.952 4106.04,-188.952 4106.04,-240.302 </gml:coordinates>
+                  </gml:LinearRing>
+                </gml:outerBoundaryIs>
+              </gml:Polygon>
+            </gml:polygonMember>
+          </gml:MultiPolygon>
+        </FormationPolygonList>
+      </OutputGraphicalData>
+      <Shape3DOfSection FileName="TutorialB5_Case_B_Section1.sec"/>
+      <Intersections>
+        <Curve Degree="1" Name="Map_DTM">
+          <Pole-Weight U="4106.04590169705" V="-0.000293555861725627" Weight="1"/>
+          <Pole-Weight U="0" V="-0.000293555861725627" Weight="1"/>
+          <Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <Knot-Multiplicity Knot="499" Multiplicity="2"/>
+        </Curve>
+      </Intersections>
+    </Section>
+    <Section Name="Map_DTM" IsAxialSurface="false" Description="Topography of the model.">
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="211" Green="0" Red="147"/>
+        <ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </Graphic>
+      <OutputGraphicalData>
+        <FormationBoundaryList>
+          <Data Name="Green"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">14000,22036.9 13918.4,22015.5 13836.7,21985.3 13791.3,21963.3 13755.1,21948.4 13673.5,21907.6 13639.5,21887.8 13591.8,21863.9 13510.2,21817.3 13499.8,21812.2 13428.6,21781.9 13346.9,21760.8 13265.3,21771.2 13217.6,21812.2 13208.4,21887.8 13227.8,21963.3 13258.3,22038.8 13265.3,22051.6 13301.2,22114.3 13346.9,22181.1 13353.7,22189.8 13428.2,22265.3 13428.6,22265.6 13510.2,22340.4 13510.7,22340.8 13579.6,22416.3 13591.8,22434.1 13632.4,22491.8 13671,22567.3 13673.5,22573.3 13704.3,22642.9 13685.8,22688.1 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13299.8,21577.7 13265.3,21571.7 13183.7,21554.3 13102,21552.2 13020.4,21577.8 13009.9,21585.7 12962.7,21661.2 12954.4,21736.7 12965.6,21812.2 12988.1,21887.8 13017.4,21963.3 13020.4,21969.6 13055.7,22038.8 13072.6,22066.3 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="LowerPink"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">14000,21733.8 13918.4,21719.9 13836.7,21700.7 13755.1,21676.2 13714.9,21661.2 13673.5,21647.5 13591.8,21615.7 13527.6,21585.7 13510.2,21577.5 13428.6,21532.2 13386.8,21510.2 13346.9,21486.5 13345.7,21485.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13813.2,23700 13823.6,23624.5 13830.2,23549 13833.3,23473.5 13832.9,23398 13829,23322.4 13821.9,23246.9 13811.6,23171.4 13798.2,23095.9 13781.8,23020.4 13762.6,22944.9 13755.1,22917.9 13741.8,22869.4 13719.3,22793.9 13694.1,22718.4 13687,22692.5 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13685.8,22688.1 13673.5,22642.9 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13389.6,21401.8 13346.9,21376.5 13317.6,21359.2 13265.3,21327.8 13183.7,21287.6 13172.8,21283.7 13102,21258.8 13020.4,21237 12938.8,21220.3 12857.1,21208.9 12841,21208.2 12775.5,21205 12725.5,21208.2 12693.9,21211.2 12612.2,21239.9 12561.2,21283.7 12537.5,21359.2 12544.9,21434.7 12566.2,21510.2 12594.2,21585.7 12612.2,21627.2 12625.7,21661.2 12659,21736.7 12692.3,21812.2 12693.9,21815.6 12728.4,21887.8 12766,21963.3 12775.5,21980.4 12808.7,22038.8 12853.8,22114.3 12857.1,22119.6 12900.9,22189.8 12938.8,22253.2 13020.4,22211.7 13058.3,22265.3 13102,22328.4 13112.5,22340.8 13178,22416.3 13183.7,22422.6 13254,22491.8 13265.3,22507.3 13275,22520.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="Plum"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">14000,21214.6 13918.4,21232.9 13836.7,21236.2 13755.1,21225.9 13691.1,21208.2 13673.5,21203.1 13591.8,21168.7 13532.2,21142.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10483,23700 10481.9,23624.5 10485.7,23549 10489.8,23525.3 10502.5,23473.5 10548.9,23398 10571.4,23379 10653.1,23347.5 10734.7,23343.9 10816.3,23355.3 10898,23374.8 10977,23398 10979.6,23398.8 11061.2,23428.8 11142.9,23459 11181,23473.5 11224.5,23490.9 11306.1,23523.8 11369.7,23549 11387.8,23556.6 11469.4,23592 11545.4,23624.5 11551,23627.1 11632.7,23665.9 11705.1,23700 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13043.4,23700 13092.8,23624.5 13102,23607.1 13128.7,23549 13154.8,23473.5 13172.5,23398 13182.5,23322.4 13183.7,23290.9 13185.2,23246.9 13183.7,23217.3 13181.4,23171.4 13171.2,23095.9 13155,23020.4 13132.9,22944.9 13104.3,22869.4 13102,22864.4 13068.1,22793.9 13031.8,22718.4 13020.4,22693.7 12999.4,22642.9 12970.5,22567.3 12939.6,22491.8 12938.8,22490.1 12905.5,22416.3 12880,22359.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13594.7,21033.2 13591.8,21032.1 13510.2,21001.6 13459.6,20981.6 13428.6,20969.2 13346.9,20933.5 13289.6,20906.1 13265.3,20893.5 13183.7,20846.6 13156.6,20830.6 13102,20797.7 13029.2,20755.1 13020.4,20750 12938.8,20705 12890.9,20679.6 12857.1,20662.5 12775.5,20621 12740.7,20604.1 12693.9,20582 12612.2,20545 12573.7,20528.6 12530.6,20510 12449,20477.8 12379.7,20453.1 12367.3,20448.6 12285.7,20423.8 12204.1,20403.7 12122.4,20389.2 12040.8,20381.1 11959.2,20380.3 11877.6,20388.2 11795.9,20405.8 11714.3,20434.5 11676.9,20453.1 11632.7,20478.6 11567.5,20528.6 11551,20544.3 11500.8,20604.1 11469.4,20656.4 11457.8,20679.6 11436.2,20755.1 11430.9,20830.6 11438.7,20906.1 11457.7,20981.6 11469.4,21010.8 11488.4,21057.1 11526.3,21132.7 11551,21172.2 11579.6,21208.2 11632.7,21258.7 11658.8,21283.7 11714.3,21339.2 11732,21359.2 11795.9,21427.4 11802.3,21434.7 11877.6,21510 11877.8,21510.2 11959.2,21580.9 11964.8,21585.7 12040.8,21647.1 12057.7,21661.2 12122.4,21713.5 12149.6,21736.7 12204.1,21783.5 12234.5,21812.2 12285.7,21862.5 12308.5,21887.8 12367.3,21957.9 12371.3,21963.3 12421.6,22038.8 12449,22084.7 12465.5,22114.3 12511.9,22189.8 12530.6,22218 12530.6,22245.1 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="LowerGrey"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13729,20000 13725.8,20075.5 13736.4,20151 13755.1,20201 13767.2,20226.5 13813.4,20302 13836.7,20340.5 13859.3,20377.6 13889.8,20453.1 13897.7,20528.6 13908.6,20568.3 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">14000,20905 13999.2,20906.1 13935.5,20981.6 13918.4,20995.7 13836.7,21028 13755.1,21031.5 13673.5,21020 13618.3,20994.1 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10177.4,23700 10165.4,23624.5 10163.3,23611.2 10153.5,23549 10147.1,23473.5 10149.5,23398 10163,23322.4 10163.3,23321.6 10193.4,23246.9 10244.4,23171.4 10244.9,23170.9 10326.5,23106.2 10346.2,23095.9 10408.2,23072.5 10489.8,23059.2 10571.4,23062.3 10653.1,23076.5 10734.7,23095.6 10735.9,23095.9 10816.3,23121.9 10898,23151.2 10950.3,23171.4 10979.6,23183.5 11061.2,23218.6 11128.8,23246.9 11142.9,23253.2 11224.5,23289.1 11305.3,23322.4 11306.1,23322.8 11387.8,23357.7 11469.4,23390.4 11489,23398 11551,23423.9 11632.7,23457.1 11673.2,23473.5 11714.3,23491.6 11795.9,23527.4 11845.8,23549 11877.6,23563.7 11959.2,23599.5 12022.5,23624.5 12040.8,23632.2 12122.4,23661.9 12204.1,23686 12267.6,23700 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">12603.1,23700 12612.2,23698.1 12693.9,23669.1 12774.8,23624.5 12775.5,23624 12857.1,23554.6 12862.2,23549 12919.4,23473.5 12938.8,23440.3 12959.1,23398 12985.2,23322.4 13001.1,23246.9 13007.6,23171.4 13005.5,23095.9 12994.8,23020.4 12975.8,22944.9 12949.2,22869.4 12938.8,22844.4 12919,22793.9 12890.6,22718.4 12866.1,22642.9 12857.1,22613.7 12842.8,22567.3 12816.6,22491.8 12785.5,22416.3 12775.5,22394.8 12751.9,22340.8 12739.1,22311.7 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13758.5,20779.6 13755.1,20780.7 13673.5,20808.8 13591.8,20812.9 13510.2,20801.6 13428.6,20780.3 13357.4,20755.1 13346.9,20751.4 13265.3,20715.2 13190,20679.6 13183.7,20677 13102,20638.5 13033.8,20604.1 13020.4,20598.4 12938.8,20562.3 12871.5,20528.6 12857.1,20520.8 12775.5,20477.8 12727.3,20453.1 12693.9,20434.7 12612.2,20392.9 12580.1,20377.6 12530.6,20352.7 12449,20315.8 12414.4,20302 12367.3,20282.6 12285.7,20254.1 12204.1,20231 12182.9,20226.5 12122.4,20213.7 12040.8,20202.8 11959.2,20198.7 11877.6,20201.9 11795.9,20212.8 11738,20226.5 11714.3,20232.5 11632.7,20262.4 11552.9,20302 11551,20303 11469.4,20359.9 11448.8,20377.6 11387.8,20438.6 11375.7,20453.1 11323.9,20528.6 11306.1,20562.2 11287.4,20604.1 11265.2,20679.6 11257,20755.1 11261.7,20830.6 11274,20906.1 11291.7,20981.6 11306.1,21021.8 11320.8,21057.1 11364.1,21132.7 11387.8,21169.2 11412.4,21208.2 11468.6,21283.7 11469.4,21284.6 11537.3,21359.2 11551,21373.6 11614.7,21434.7 11632.7,21451.5 11695.8,21510.2 11714.3,21526.2 11782.7,21585.7 11795.9,21596.2 11877.6,21661 11877.8,21661.2 11959.2,21723.3 11976.3,21736.7 12040.8,21786.8 12072.2,21812.2 12122.4,21854.1 12160.2,21887.8 12204.1,21929.7 12236.1,21963.3 12285.7,22021.5 12298.9,22038.8 12349.1,22114.3 12367.3,22145.1 12392.2,22189.8 12400,22203.7 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="UpperGrey"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13502.8,20000 13498.9,20075.5 13498.7,20151 13501.5,20226.5 13504,20302 13499,20377.6 13469.2,20453.1 13428.6,20489.4 13346.9,20518.5 13265.3,20521.4 13183.7,20511.3 13102,20493.2 13020.4,20469.6 12981.1,20453.1 12938.8,20432.3 12857.1,20383.8 12846.6,20377.6 12775.5,20331.4 12726,20302 12693.9,20281.5 12612.2,20234.1 12597.7,20226.5 12530.6,20189.4 12450.5,20151 12449,20150.3 12367.3,20115.1 12285.7,20086.2 12247.8,20075.5 12204.1,20063 12122.4,20045.9 12040.8,20035.2 11959.2,20031 11877.6,20033.6 11795.9,20043.2 11714.3,20060 11662.8,20075.5 11632.7,20084.8 11551,20118.5 11488.9,20151 11469.4,20161.9 11387.8,20217.6 11376.6,20226.5 11306.1,20289.8 11294.3,20302 11232,20377.6 11224.5,20388.6 11186.3,20453.1 11153,20528.6 11142.9,20563.4 11132.5,20604.1 11123.6,20679.6 11123.8,20755.1 11130.9,20830.6 11142.9,20894.1 11145.2,20906.1 11165,20981.6 11189.6,21057.1 11223.1,21132.7 11224.5,21135.1 11270.4,21208.2 11306.1,21258.3 11325,21283.7 11385.6,21359.2 11387.8,21361.7 11452.7,21434.7 11469.4,21452.4 11527.5,21510.2 11551,21532.6 11610.2,21585.7 11632.7,21604.8 11702.3,21661.2 11714.3,21670.4 11795.9,21731.5 11802.9,21736.7 11877.6,21792.1 11904.2,21812.2 11959.2,21855.1 12000,21887.8 12040.8,21922.8 12086.1,21963.3 12122.4,21999.5 12159.3,22038.8 12204.1,22094.2 12219,22114.3 12251.2,22157.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10000,23105.9 10007,23095.9 10078.4,23020.4 10081.6,23017.7 10163.3,22961 10193.1,22944.9 10244.9,22922.6 10326.5,22898.9 10408.2,22887.3 10489.8,22887.6 10571.4,22900.3 10653.1,22923.7 10730.5,22944.9 10734.7,22946.1 10816.3,22971.5 10898,23000.2 10950.3,23020.4 10979.6,23032.4 11061.2,23067.3 11128.6,23095.9 11142.9,23102.3 11224.5,23138.3 11303.8,23171.4 11306.1,23172.5 11387.8,23206.8 11469.4,23238.8 11491.2,23246.9 11551,23270.3 11632.7,23300.4 11695.4,23322.4 11714.3,23329.7 11795.9,23360.5 11877.6,23391.2 11896.7,23398 11959.2,23422 12040.8,23449.5 12122.4,23472.2 12128.7,23473.5 12204.1,23489.9 12285.7,23500.5 12367.3,23502.9 12449,23495.5 12530.6,23476.1 12537.5,23473.5 12612.2,23439.7 12672.2,23398 12693.9,23379 12741.9,23322.4 12775.5,23266.3 12784.8,23246.9 12808.5,23171.4 12819.1,23095.9 12818.5,23020.4 12808.8,22944.9 12792.9,22869.4 12775.5,22800.4 12773.9,22793.9 12753.7,22718.4 12733.3,22642.9 12711.4,22567.3 12693.9,22514.5 12686.8,22491.8 12663.6,22416.3 12641,22340.8 12612.2,22273.9 12612.2,22271.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="Orange"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10897.8,20000 10843.9,20075.5 10816.3,20116.6 10795.3,20151 10753.2,20226.5 10734.7,20264.5 10718.2,20302 10694.1,20377.6 10681.7,20453.1 10676.5,20528.6 10674.6,20604.1 10675.6,20679.6 10680.5,20755.1 10691,20830.6 10708.5,20906.1 10730.5,20981.6 10734.7,20995.5 10753.8,21057.1 10778.3,21132.7 10805.2,21208.2 10816.3,21237.5 10834.7,21283.7 10867.8,21359.2 10898,21420.8 10905.3,21434.7 10946.3,21510.2 10979.6,21568.3 10990.4,21585.7 11033.1,21661.2 11061.2,21702.4 11087.7,21736.7 11142.9,21786 11174.9,21812.2 11224.5,21847.6 11281.2,21887.8 11281.9,21890.1 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10000,22452.2 10081.6,22437.6 10163.3,22428.3 10244.9,22424 10326.5,22424.7 10408.2,22430.4 10489.8,22441 10571.4,22456.3 10653.1,22476.3 10705.7,22491.8 10734.7,22500.5 10816.3,22527.3 10898,22555.3 10932.3,22567.3 10979.6,22584.1 11061.2,22614 11138.2,22642.9 11142.9,22644.6 11224.5,22673.8 11306.1,22701.6 11357.6,22718.4 11387.8,22728.3 11469.4,22752.8 11551,22775.2 11628,22793.9 11632.7,22795 11714.3,22809.8 11795.9,22818.9 11877.6,22819 11959.2,22804.6 11985.5,22793.9 12040.8,22762.5 12085,22718.4 12122.4,22657.3 12128.7,22642.9 12147.4,22567.3 12152.5,22491.8 12145.8,22416.3 12128.4,22340.8 12122.4,22325.3 12098.3,22265.3 12056.9,22189.8 12040.8,22167.1 12001.9,22114.3 11981,22077.3 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="UpperPink"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10469.7,20000 10438.7,20075.5 10411,20151 10408.2,20159.2 10383.1,20226.5 10359.6,20302 10344.3,20377.6 10336.5,20453.1 10332.9,20528.6 10331.2,20604.1 10330.3,20679.6 10329.2,20755.1 10327.3,20830.6 10326.5,20857.9 10324.9,20906.1 10322.2,20981.6 10318.6,21057.1 10312.9,21132.7 10303.3,21208.2 10287.8,21283.7 10263.2,21359.2 10244.9,21397.5 10221.2,21434.7 10163.3,21497.5 10147,21510.2 10081.6,21549.7 10050,21568.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10000,22015.3 10081.6,22009.1 10163.3,22005.4 10244.9,22004.5 10326.5,22006.6 10408.2,22012.1 10489.8,22021.9 10571.4,22036.9 10579.3,22038.8 10653.1,22053.3 10734.7,22070.1 10816.3,22079 10898,22076.8 10979.6,22064 11017.3,22038.8 10982.3,21963.3 10979.6,21961.4 10898,21896.8 10891.5,21887.8 10834.6,21812.2 10826.1,21777.2 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="Blue"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10196.7,20000 10164.1,20075.5 10163.3,20077.7 10124.6,20151 10087.4,20226.5 10081.6,20239.4 10038.7,20302 10010.8,20377.6 10003.7,20453.1 10002.9,20528.6 10003,20604.1 10001.2,20679.6 10000,20694.7 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10000,21729.2 10081.6,21710.9 10163.3,21687.9 10232.4,21661.2 10244.9,21655.1 10272.8,21631.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="ENE"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">14000,22818.8 13937.5,22793.9 13918.4,22786.3 13836.7,22753.4 13755.1,22720.3 13750.4,22718.4 13687,22692.5 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13687,22692.5 13684.5,22691.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13684.5,22691.4 13673.5,22686.9 13591.8,22653.3 13566.7,22642.9 13510.2,22619.4 13428.6,22585.3 13386,22567.3 13346.9,22550.9 13275,22520.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13275,22520.4 13265.3,22516.4 13207.6,22491.8 13183.7,22481.7 13102,22447.3 13026.8,22416.3 13020.4,22413.7 12938.8,22381.6 12927.7,22377.5 12880,22359.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">12880,22359.8 12857.1,22351.3 12826.7,22340.8 12775.5,22323.4 12739.1,22311.7 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">12739.1,22311.7 12693.9,22297.2 12612.2,22271.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">12612.2,22271.4 12593.4,22265.3 12530.6,22245.1 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">12530.6,22245.1 12449,22219 12400,22203.7 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">12400,22203.7 12367.3,22193.5 12355.4,22189.8 12285.7,22168.3 12251.2,22157.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">12251.2,22157.8 12204.1,22143.4 12122.4,22118.9 12106.9,22114.3 12040.8,22094.7 11981,22077.3 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">11981,22077.3 11959.2,22071 11877.6,22047.6 11846.4,22038.8 11795.9,22024.6 11714.3,22002.1 11632.7,21980 11569.3,21963.3 11551,21958.4 11469.4,21937.3 11387.8,21916.6 11306.1,21896.1 11281.9,21890.1 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">11281.9,21890.1 11272.3,21887.8 11224.5,21875.9 11142.9,21855.8 11061.2,21835.7 10979.6,21815.6 10966.3,21812.2 10898,21795.3 10826.1,21777.2 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10826.1,21777.2 10816.3,21774.7 10734.7,21754 10667.7,21736.7 10653.1,21733 10571.4,21711.7 10489.8,21690.1 10408.2,21668.3 10382.2,21661.2 10326.5,21646.1 10272.8,21631.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10272.8,21631.4 10244.9,21623.7 10163.3,21600.9 10109.3,21585.7 10081.6,21577.9 10050,21568.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">10050,21568.8 10000,21554.5 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+          <Data Name="WNW"/>
+          <gml:MultiLineString srsName="localSectionSystem">
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">14000,20441.2 13991.5,20453.1 13937.2,20528.6 13918.4,20554.7 13908.6,20568.3 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13908.6,20568.3 13882.8,20604.1 13836.7,20668.3 13828.7,20679.6 13775.5,20755.1 13758.5,20779.6 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13758.5,20779.6 13755.1,20784.5 13723.6,20830.6 13673.5,20906.1 13673.5,20906.1 13625.9,20981.6 13618.3,20994.1 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13618.3,20994.1 13594.7,21033.2 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13594.7,21033.2 13591.8,21038 13580.5,21057.1 13537.6,21132.7 13532.2,21142.4 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13532.2,21142.4 13510.2,21181.5 13495.2,21208.2 13453.4,21283.7 13428.6,21329 13412.2,21359.2 13389.6,21401.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13389.6,21401.8 13372.2,21434.7 13346.9,21483.5 13345.7,21485.8 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13345.7,21485.8 13333.3,21510.2 13299.8,21577.7 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13299.8,21577.7 13295.8,21585.7 13265.3,21648.9 13259.4,21661.2 13223.9,21736.7 13188.9,21812.2 13183.7,21823.5 13154.3,21887.8 13119.8,21963.3 13102,22002.1 13085.2,22038.8 13072.6,22066.3 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+            <gml:lineStringMember>
+              <gml:LineString>
+                <gml:coordinates decimal="." cs="," ts=" ">13072.6,22066.3 13050.5,22114.3 13020.4,22179.4 13015.6,22189.8 12980.4,22265.3 12945,22340.8 12938.8,22354.1 12927.7,22377.5 </gml:coordinates>
+              </gml:LineString>
+            </gml:lineStringMember>
+          </gml:MultiLineString>
+        </FormationBoundaryList>
+      </OutputGraphicalData>
+      <Structural2DData>
+        <Foliations>
+          <Foliation>
+            <FoliationObservation Azimuth="61" Dip="90" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13570.1,21093</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="WNW"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="341" Dip="90" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12532.7,22284.6</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="ENE"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="151" Dip="21" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13486,21597.7</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="LowerPink"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="158" Dip="19" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13247.7,21093</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="161" Dip="19" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12967.3,20546.2</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="UpperGrey"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="322" Dip="18" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>11537.4,21793.9</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="309" Dip="21" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12588.8,22186.5</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="294" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13163.6,22859.4</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="316" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>10850.5,21892.1</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Blue"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="162" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>10780.4,22340.7</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="UpperPink"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="161" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>11243,22733.2</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="163" Dip="14" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>11873.8,23181.8</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="157" Dip="14" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>10612.1,22887.4</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="322" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12014,21541.6</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+        </Foliations>
+        <Interfaces>
+          <Interface>
+            <Data Name="WNW"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13107.5,21990.2 13345.8,21485.5 13584.1,21050.9 13934.6,20532.2 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="ENE"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10892.5,21793.9 11565.4,21962.2 12434.6,22214.5 12827.1,22340.7 13247.7,22508.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13724.3,20111.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13906.6,21008.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Green"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13370.8,22211.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13142.7,22391.8 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10149.5,23518.2 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Blue"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10065.4,20279.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10349.9,20349.3 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Orange"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10674.2,20607.3 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11131.1,20835.8 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11308,21034.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Plum"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11580.7,21219 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10173.8,23672.2 10157.7,23343.8 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10494.1,22887.3 10782.5,22959.4 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Orange"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10662.4,22478.8 10998.8,22590.9 11383.2,22727.1 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10654.3,22054.3 10878.6,22078.3 10990.8,22078.3 11014.8,22022.2 10982.7,21958.1 10822.6,21789.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Plum"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">12905.1,22414.7 13009.2,22671 13145.4,22983.4 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">12752.9,22342.6 12817,22486.8 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">12624.8,22294.5 12664.8,22430.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13727.1,20022.7 13890.5,20446.1 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13979.6,20928.9 13793.9,21032.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13660.2,21642 13385.4,21508.3 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13355.6,21382 13140.2,21270.6 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Plum"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13288.8,20906.6 12910,20691.2 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13214.5,20691.2 12858,20520.4 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13184.8,20512.9 12872.8,20394.1 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Green"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13223.1,21953.8 13283.4,22085.6 13400.1,22240 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13034.8,22236.3 13125.2,22353 13226.9,22454.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Plum"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">12364.4,21953.8 12435.9,22059.3 12496.2,22168.5 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Plum"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11636.8,21258.1 11809,21441.5 12044.8,21651.1 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Plum"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11434.7,20756.6 11442.2,20928.8 11494.6,21071 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11270,20887.6 11255.1,20730.4 11288.8,20599.4 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11359.9,21123.4 11460.9,21273.1 11565.7,21389.1 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11124.1,20745.4 11131.6,20606.9 11172.7,20479.6 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11165.2,20981.2 11210.2,21108.4 11270,21209.5 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Orange"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10738.6,20255.1 10689.9,20386.1 10678.7,20487.1 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Orange"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10674.9,20674.2 10689.9,20831.4 10727.3,20969.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Orange"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11011.8,21617.4 11127.8,21774.6 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10392.7,20204.3 10361.5,20297.8 10334.8,20502.6 10330.3,20725.3 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Blue"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10032,20297.8 10005.3,20444.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+        </Interfaces>
+      </Structural2DData>
+      <Shape3DOfSection FileName="TutorialB5_Map_DTM.sec"/>
+      <ImageUnderLays>
+        <ImageUnderLay Filename="FieldGeologyWithCOVER.jpg">
+          <ExtentUV Umin="10000" Vmin="20000" Umax="14000" Vmax="23700"/>
+        </ImageUnderLay>
+      </ImageUnderLays>
+      <Intersections>
+        <Curve Degree="1" Name="Case_B_Section1">
+          <Pole-Weight U="12562.66015625" V="20075.45703125" Weight="1"/>
+          <Pole-Weight U="10225.4580078125" V="23451.416015625" Weight="1"/>
+          <Knot-Multiplicity Knot="0" Multiplicity="2"/>
+          <Knot-Multiplicity Knot="499" Multiplicity="2"/>
+        </Curve>
+      </Intersections>
+    </Section>
+  </Sections>
+
+  <GeologicalModel SimplificationRadius="10">
+    <Extent3D>
+      <ExtentXY Xmin="10000" Ymin="20000" Xmax="14000" Ymax="23700"/>
+      <ExtentZ Zmin="-1000" Zmax="100"/>
+    </Extent3D>
+    <ModelSections>
+      <Data Name="Map_DTM"/>
+    </ModelSections>
+    <ModelFaults>
+      <PotentialFault>
+        <PotentialField maxValue="2355.2" Xmin="10892.5" Ymin="21793.9" Zmin="0" Xmax="13247.7" Ymax="22508.9" Zmax="0">
+          <covariance covarianceModel="1" isotropic="true" anisotropyA1="0" anisotropyA2="0" anisotropyA3="0" anisotropyV1="0.000178571" anisotropyV2="0.000178571" anisotropyV3="0.000178571" range="5600" gradient="1" nuggetGradient="0.01" tangentVariance="1" nuggetPotentiel="1e-006" degreDrift="1"/>
+          <Gradients>
+            <Gradient XGr="12532.7" YGr="22284.6" ZGr="0" Gx="-0.325568153722381" Gy="0.945518575852321" Gz="-0.0000000002051033289333839"/>
+          </Gradients>
+          <Points>
+            <gml:coord>
+              <gml:X>10892.5</gml:X>
+              <gml:Y>21793.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11565.4</gml:X>
+              <gml:Y>21962.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12434.6</gml:X>
+              <gml:Y>22214.5</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12827.1</gml:X>
+              <gml:Y>22340.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13247.7</gml:X>
+              <gml:Y>22508.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+          </Points>
+          <Constraints>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+          </Constraints>
+          <InterfacePoints>
+            <InterfacePoint pnt="0" npnt="5"/>
+          </InterfacePoints>
+          <Solutions>
+            <Solution sol="-1.056410427623867"/>
+            <Solution sol="-0.273646894455185"/>
+            <Solution sol="0"/>
+            <Solution sol="0.885211671811212"/>
+            <Solution sol="-10.08664126446126"/>
+            <Solution sol="13.79001658717348"/>
+            <Solution sol="-3.91947931829235"/>
+            <Solution sol="-0.306961247342459"/>
+            <Solution sol="0.943948300033187"/>
+            <Solution sol="-0.0000000002051033289333839"/>
+          </Solutions>
+        </PotentialField>
+        <Data Name="ENE"/>
+      </PotentialFault>
+      <PotentialFault>
+        <PotentialField maxValue="1458" Xmin="13107.5" Ymin="20532.2" Zmin="0" Xmax="13934.6" Ymax="21990.2" Zmax="0">
+          <covariance covarianceModel="1" isotropic="true" anisotropyA1="0" anisotropyA2="0" anisotropyA3="0" anisotropyV1="0.000178571" anisotropyV2="0.000178571" anisotropyV3="0.000178571" range="5600" gradient="1" nuggetGradient="0.01" tangentVariance="1" nuggetPotentiel="1e-006" degreDrift="1"/>
+          <Gradients>
+            <Gradient XGr="13570.1" YGr="21093" ZGr="0" Gx="0.874619707604536" Gy="0.484809619407202" Gz="-0.0000000002051033289333839"/>
+          </Gradients>
+          <Points>
+            <gml:coord>
+              <gml:X>13107.5</gml:X>
+              <gml:Y>21990.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13345.8</gml:X>
+              <gml:Y>21485.5</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13584.1</gml:X>
+              <gml:Y>21050.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13934.6</gml:X>
+              <gml:Y>20532.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+          </Points>
+          <Constraints>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+          </Constraints>
+          <InterfacePoints>
+            <InterfacePoint pnt="0" npnt="4"/>
+          </InterfacePoints>
+          <Solutions>
+            <Solution sol="0.445851639779268"/>
+            <Solution sol="-0.615459038228089"/>
+            <Solution sol="0"/>
+            <Solution sol="2.39315273689984"/>
+            <Solution sol="0.464260042561538"/>
+            <Solution sol="-1.742964967097362"/>
+            <Solution sol="0.858450960646254"/>
+            <Solution sol="0.497228416588816"/>
+            <Solution sol="-0.0000000002051033289333839"/>
+          </Solutions>
+        </PotentialField>
+        <Data Name="WNW"/>
+      </PotentialFault>
+    </ModelFaults>
+    <ProjectStratigraphicColumn IsBase="false">
+      <Series name="Case_B_Series" relation="1" isUptodate="true">
+        <Data Name="Green"/>
+        <Data Name="LowerPink"/>
+        <Data Name="Plum"/>
+        <Data Name="LowerGrey"/>
+        <Data Name="UpperGrey"/>
+        <Data Name="Orange"/>
+        <Data Name="UpperPink"/>
+        <Data Name="Blue"/>
+        <InfluencedByFault Name="ENE"/>
+        <InfluencedByFault Name="WNW"/>
+        <PotentialField maxValue="3974.3" Xmin="10005.3" Ymin="20022.7" Zmin="0" Xmax="13979.6" Ymax="23672.2" Zmax="0">
+          <covariance covarianceModel="1" isotropic="true" anisotropyA1="0" anisotropyA2="0" anisotropyA3="0" anisotropyV1="0.000178571" anisotropyV2="0.000178571" anisotropyV3="0.000178571" range="5600" gradient="1" nuggetGradient="0.01" tangentVariance="1" nuggetPotentiel="1e-006" degreDrift="1"/>
+          <Gradients>
+            <Gradient XGr="13486" YGr="21597.7" ZGr="0" Gx="0.1737402294413174" Gy="-0.31343567117832" Gz="0.933580426480051"/>
+            <Gradient XGr="12014" YGr="21541.6" ZGr="0" Gx="-0.1593449148535367" Gy="0.2039521910526872" Gz="0.965925826280221"/>
+            <Gradient XGr="13163.6" YGr="22859.4" ZGr="0" Gx="-0.23644296287807" Gy="0.1052711899349126" Gz="0.965925826280221"/>
+            <Gradient XGr="12588.8" YGr="22186.5" ZGr="0" Gx="-0.278504204395627" Gy="0.225528258600302" Gz="0.933580426480051"/>
+            <Gradient XGr="13247.7" YGr="21093" ZGr="0" Gx="0.1219599771725461" Gy="-0.301861536455655" Gz="0.94551857558522"/>
+            <Gradient XGr="12967.3" YGr="20546.2" ZGr="0" Gx="0.1059946230970227" Gy="-0.307830737740429" Gz="0.94551857558522"/>
+            <Gradient XGr="10612.1" YGr="22887.4" ZGr="0" Gx="0.0945264152063417" Gy="-0.2226902791182258" Gz="0.970295726268278"/>
+            <Gradient XGr="11873.8" YGr="23181.8" ZGr="0" Gx="0.070731116949343" Gy="-0.231351059389434" Gz="0.970295726268278"/>
+            <Gradient XGr="11243" YGr="22733.2" ZGr="0" Gx="0.0842632387733524" Gy="-0.244718214925448" Gz="0.965925826280221"/>
+            <Gradient XGr="11537.4" YGr="21793.9" ZGr="0" Gx="-0.1902498583031317" Gy="0.243508714941121" Gz="0.951056516282478"/>
+            <Gradient XGr="10780.4" YGr="22340.7" ZGr="0" Gx="0.0799794833239025" Gy="-0.246151539446972" Gz="0.965925826280221"/>
+            <Gradient XGr="10850.5" YGr="21892.1" ZGr="0" Gx="-0.1797908158507892" Gy="0.1861788405286173" Gz="0.965925826280221"/>
+          </Gradients>
+          <Points>
+            <gml:coord>
+              <gml:X>13223.1</gml:X>
+              <gml:Y>21953.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13283.4</gml:X>
+              <gml:Y>22085.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13400.1</gml:X>
+              <gml:Y>22240</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13370.8</gml:X>
+              <gml:Y>22211.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13034.8</gml:X>
+              <gml:Y>22236.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13125.2</gml:X>
+              <gml:Y>22353</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13226.9</gml:X>
+              <gml:Y>22454.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13355.6</gml:X>
+              <gml:Y>21382</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13140.2</gml:X>
+              <gml:Y>21270.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13660.2</gml:X>
+              <gml:Y>21642</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13385.4</gml:X>
+              <gml:Y>21508.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13142.7</gml:X>
+              <gml:Y>22391.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11434.7</gml:X>
+              <gml:Y>20756.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11442.2</gml:X>
+              <gml:Y>20928.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11494.6</gml:X>
+              <gml:Y>21071</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11636.8</gml:X>
+              <gml:Y>21258.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11809</gml:X>
+              <gml:Y>21441.5</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12044.8</gml:X>
+              <gml:Y>21651.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12364.4</gml:X>
+              <gml:Y>21953.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12435.9</gml:X>
+              <gml:Y>22059.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12496.2</gml:X>
+              <gml:Y>22168.5</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13288.8</gml:X>
+              <gml:Y>20906.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12910</gml:X>
+              <gml:Y>20691.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12905.1</gml:X>
+              <gml:Y>22414.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13009.2</gml:X>
+              <gml:Y>22671</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13145.4</gml:X>
+              <gml:Y>22983.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11580.7</gml:X>
+              <gml:Y>21219</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11359.9</gml:X>
+              <gml:Y>21123.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11460.9</gml:X>
+              <gml:Y>21273.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11565.7</gml:X>
+              <gml:Y>21389.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11270</gml:X>
+              <gml:Y>20887.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11255.1</gml:X>
+              <gml:Y>20730.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11288.8</gml:X>
+              <gml:Y>20599.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13214.5</gml:X>
+              <gml:Y>20691.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12858</gml:X>
+              <gml:Y>20520.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13979.6</gml:X>
+              <gml:Y>20928.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13793.9</gml:X>
+              <gml:Y>21032.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13727.1</gml:X>
+              <gml:Y>20022.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13890.5</gml:X>
+              <gml:Y>20446.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12752.9</gml:X>
+              <gml:Y>22342.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12817</gml:X>
+              <gml:Y>22486.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10173.8</gml:X>
+              <gml:Y>23672.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10157.7</gml:X>
+              <gml:Y>23343.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11308</gml:X>
+              <gml:Y>21034.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10149.5</gml:X>
+              <gml:Y>23518.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13906.6</gml:X>
+              <gml:Y>21008.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13724.3</gml:X>
+              <gml:Y>20111.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11165.2</gml:X>
+              <gml:Y>20981.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11210.2</gml:X>
+              <gml:Y>21108.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11270</gml:X>
+              <gml:Y>21209.5</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11124.1</gml:X>
+              <gml:Y>20745.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11131.6</gml:X>
+              <gml:Y>20606.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11172.7</gml:X>
+              <gml:Y>20479.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>13184.8</gml:X>
+              <gml:Y>20512.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12872.8</gml:X>
+              <gml:Y>20394.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12624.8</gml:X>
+              <gml:Y>22294.5</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>12664.8</gml:X>
+              <gml:Y>22430.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10494.1</gml:X>
+              <gml:Y>22887.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10782.5</gml:X>
+              <gml:Y>22959.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11131.1</gml:X>
+              <gml:Y>20835.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11011.8</gml:X>
+              <gml:Y>21617.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11127.8</gml:X>
+              <gml:Y>21774.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10674.9</gml:X>
+              <gml:Y>20674.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10689.9</gml:X>
+              <gml:Y>20831.4</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10727.3</gml:X>
+              <gml:Y>20969.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10738.6</gml:X>
+              <gml:Y>20255.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10689.9</gml:X>
+              <gml:Y>20386.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10678.7</gml:X>
+              <gml:Y>20487.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10662.4</gml:X>
+              <gml:Y>22478.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10998.8</gml:X>
+              <gml:Y>22590.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11383.2</gml:X>
+              <gml:Y>22727.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10674.2</gml:X>
+              <gml:Y>20607.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10392.7</gml:X>
+              <gml:Y>20204.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10361.5</gml:X>
+              <gml:Y>20297.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10334.8</gml:X>
+              <gml:Y>20502.6</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10330.3</gml:X>
+              <gml:Y>20725.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10654.3</gml:X>
+              <gml:Y>22054.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10878.6</gml:X>
+              <gml:Y>22078.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10990.8</gml:X>
+              <gml:Y>22078.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>11014.8</gml:X>
+              <gml:Y>22022.2</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10982.7</gml:X>
+              <gml:Y>21958.1</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10822.6</gml:X>
+              <gml:Y>21789.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10349.9</gml:X>
+              <gml:Y>20349.3</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10032</gml:X>
+              <gml:Y>20297.8</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10005.3</gml:X>
+              <gml:Y>20444.7</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>10065.4</gml:X>
+              <gml:Y>20279.9</gml:Y>
+              <gml:Z>0</gml:Z>
+            </gml:coord>
+          </Points>
+          <Constraints>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+          </Constraints>
+          <InterfacePoints>
+            <InterfacePoint pnt="0" npnt="4"/>
+            <InterfacePoint pnt="4" npnt="8"/>
+            <InterfacePoint pnt="12" npnt="15"/>
+            <InterfacePoint pnt="27" npnt="20"/>
+            <InterfacePoint pnt="47" npnt="13"/>
+            <InterfacePoint pnt="60" npnt="12"/>
+            <InterfacePoint pnt="72" npnt="11"/>
+            <InterfacePoint pnt="83" npnt="3"/>
+          </InterfacePoints>
+          <Solutions>
+            <Solution sol="2.29419913939427"/>
+            <Solution sol="0.0738613149754581"/>
+            <Solution sol="-1.793975975174299"/>
+            <Solution sol="-1.064193282173893"/>
+            <Solution sol="0.0751315987197212"/>
+            <Solution sol="-0.00919351258389733"/>
+            <Solution sol="1.930708411161924"/>
+            <Solution sol="0.572319355681652"/>
+            <Solution sol="-0.227134933644766"/>
+            <Solution sol="-0.917671522346549"/>
+            <Solution sol="0.2156081772367879"/>
+            <Solution sol="-4.89199753731942"/>
+            <Solution sol="-3.00985559420012"/>
+            <Solution sol="1.068017339251541"/>
+            <Solution sol="1.006610594820491"/>
+            <Solution sol="2.29012250877569"/>
+            <Solution sol="-2.246445783606914"/>
+            <Solution sol="-4.32390892650176"/>
+            <Solution sol="-0.28651622384957"/>
+            <Solution sol="-0.864620507110695"/>
+            <Solution sol="-0.0666348957767788"/>
+            <Solution sol="1.358487083637749"/>
+            <Solution sol="-0.0883612577558281"/>
+            <Solution sol="6.47229290780404"/>
+            <Solution sol="-0.1289503213933031"/>
+            <Solution sol="0.238551433650094"/>
+            <Solution sol="0.1473320235299109"/>
+            <Solution sol="-0.251394127447967"/>
+            <Solution sol="0.0721326404707858"/>
+            <Solution sol="-0.0438987804248065"/>
+            <Solution sol="0.02035689879093328"/>
+            <Solution sol="0.0638613610886292"/>
+            <Solution sol="0.00332366663720635"/>
+            <Solution sol="-0.1637533284292403"/>
+            <Solution sol="-0.01089158338346352"/>
+            <Solution sol="0.0533301169112208"/>
+            <Solution sol="23.0560417563548"/>
+            <Solution sol="-9.23081452280866"/>
+            <Solution sol="-32.7371524439505"/>
+            <Solution sol="200.0079922393198"/>
+            <Solution sol="179.6940073398566"/>
+            <Solution sol="-7.91805668752937"/>
+            <Solution sol="0.589847753153649"/>
+            <Solution sol="-11.0034349972616"/>
+            <Solution sol="12.47184703584716"/>
+            <Solution sol="-322.49393287344"/>
+            <Solution sol="2.80670826183226"/>
+            <Solution sol="25.7077026601899"/>
+            <Solution sol="173.9951183209656"/>
+            <Solution sol="5.27099631962491"/>
+            <Solution sol="-18.31583403505391"/>
+            <Solution sol="5.76659785508769"/>
+            <Solution sol="66.2203243237389"/>
+            <Solution sol="-99.4399786063919"/>
+            <Solution sol="1.734862728755992"/>
+            <Solution sol="65.2977601834819"/>
+            <Solution sol="22.13248933462725"/>
+            <Solution sol="-46.4972829702976"/>
+            <Solution sol="1.659692125515891"/>
+            <Solution sol="-210.1992787895794"/>
+            <Solution sol="38.6604171395579"/>
+            <Solution sol="-26.2546463589658"/>
+            <Solution sol="30.4742123455933"/>
+            <Solution sol="-59.9851984917084"/>
+            <Solution sol="16.57865185687824"/>
+            <Solution sol="-13.44900289889465"/>
+            <Solution sol="-60.1113704432781"/>
+            <Solution sol="-56.6958962858611"/>
+            <Solution sol="-22.02354972375834"/>
+            <Solution sol="29.1722659509836"/>
+            <Solution sol="23.3022025219263"/>
+            <Solution sol="13.13076990307523"/>
+            <Solution sol="70.0604509814835"/>
+            <Solution sol="12.14146780856367"/>
+            <Solution sol="0.499594096945689"/>
+            <Solution sol="-80.5988293152451"/>
+            <Solution sol="-6.30726491378238"/>
+            <Solution sol="71.3912370752439"/>
+            <Solution sol="-57.4144406426565"/>
+            <Solution sol="-27.6033159281647"/>
+            <Solution sol="-20.04449710434285"/>
+            <Solution sol="45.5113207315236"/>
+            <Solution sol="-7.25319990873851"/>
+            <Solution sol="7.01566118286034"/>
+            <Solution sol="10.2072514758755"/>
+            <Solution sol="-0.513566425707538"/>
+            <Solution sol="115.1178337802303"/>
+            <Solution sol="-130.2161804676045"/>
+            <Solution sol="16.26672685359092"/>
+            <Solution sol="-23.8609230096215"/>
+            <Solution sol="-22.45918716726227"/>
+            <Solution sol="-19.76124462721404"/>
+            <Solution sol="-3.50430577117549"/>
+            <Solution sol="-42.0889113721604"/>
+            <Solution sol="24.9460145047634"/>
+            <Solution sol="13.7230314450155"/>
+            <Solution sol="-72.3893234714726"/>
+            <Solution sol="35.9064353717574"/>
+            <Solution sol="-4.5852846811395"/>
+            <Solution sol="-10.41852747075509"/>
+            <Solution sol="3.36759102540405"/>
+            <Solution sol="4.72284717655353"/>
+            <Solution sol="-28.5101899029076"/>
+            <Solution sol="19.93842837864881"/>
+            <Solution sol="16.87687833775777"/>
+            <Solution sol="-29.8459478231238"/>
+            <Solution sol="-103.976446503751"/>
+            <Solution sol="75.4955739741803"/>
+            <Solution sol="-47.7079904560598"/>
+            <Solution sol="80.9937266022351"/>
+            <Solution sol="-7.4500681897169"/>
+            <Solution sol="-11.7540854310389"/>
+            <Solution sol="15.07390098111687"/>
+            <Solution sol="181.4145877926327"/>
+            <Solution sol="-0.0772195695884294"/>
+            <Solution sol="-0.0574126966257199"/>
+            <Solution sol="0.961244675069536"/>
+            <Solution sol="0.01762479293995027"/>
+            <Solution sol="0.0062023049998055"/>
+          </Solutions>
+        </PotentialField>
+      </Series>
+      <Series name="Case_B_Cover" relation="1" isUptodate="false">
+        <Data Name="Cover"/>
+      </Series>
+    </ProjectStratigraphicColumn>
+    <ModelStratigraphicColumn>
+      <Data Name="Case_B_Series"/>
+    </ModelStratigraphicColumn>
+  </GeologicalModel>
+
+  <ProvenanceTable>
+    <Head>
+      <Variable Name="Rank"/>
+      <Variable Name="Provenance"/>
+    </Head>
+    <Result>
+      <Row>"0","Unspecified"</Row>
+      <Row>"1","Observed"</Row>
+      <Row>"2","Inferred"</Row>
+      <Row>"3","Interpreted"</Row>
+      <Row>"4","ModelConstructor"</Row>
+    </Result>
+  </ProvenanceTable>
+
+</Project3DEdit>

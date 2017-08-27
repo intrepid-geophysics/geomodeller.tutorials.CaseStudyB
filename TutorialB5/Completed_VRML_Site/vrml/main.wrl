@@ -1,0 +1,323 @@
+#VRML V2.0 utf8
+EXTERNPROTO Green_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_Green.wrz"
+EXTERNPROTO LowerPink_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_LowerPink.wrz"
+EXTERNPROTO Plum_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_Plum.wrz"
+EXTERNPROTO LowerGrey_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_LowerGrey.wrz"
+EXTERNPROTO UpperGrey_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_UpperGrey.wrz"
+EXTERNPROTO Orange_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_Orange.wrz"
+EXTERNPROTO UpperPink_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_UpperPink.wrz"
+EXTERNPROTO Blue_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_Blue.wrz"
+EXTERNPROTO Cover_proto [
+    eventIn SFInt32 selectTextureFamily
+    ] "siteVRML_Shape_Model_Cover.wrz"
+DEF anav NavigationInfo {
+    headlight TRUE
+    type "EXAMINE"
+    speed 50000
+}
+DEF Up_Light_1 DirectionalLight {
+    ambientIntensity 0.5
+    direction 0 0 -1
+    intensity 0.7
+}
+DEF Down_Light_2 DirectionalLight {
+    ambientIntensity 0.5
+    direction 0 0 1
+    intensity 0.7
+}
+DEF ModelScale PositionInterpolator {
+    key [0, 1.0]
+    keyValue [1 1 -1, 1 1 -1]
+}
+DEF clock TimeSensor {
+    enabled TRUE
+    cycleInterval 2
+    loop FALSE
+}
+DEF AnimateOI OrientationInterpolator {
+    key [ 0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5,
+    0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0 ]
+    keyValue [ 0 0 1 0, 0 0 1 0.313
+    0 0 1 0.627, 0 0 1 0.94,
+    0 0 1 1.256, 0 0 1 1.569,
+    0 0 1 1.884, 0 0 1 2.197,
+    0 0 1 2.512, 0 0 1 2.825,
+    0 0 1 3.14, 0 0 1 3.453,
+    0 0 1 3.768, 0 0 1 4.081,
+    0 0 1 4.396, 0 0 1 4.709,
+    0 0 1 5.024, 0 0 1 5.337,
+    0 0 1 5.652, 0 0 1 5.965,
+    0 0 1 6.28 ]
+}
+DEF AnimateTIS TimeSensor {
+    enabled TRUE
+    startTime 0
+    cycleInterval 10.0
+}
+    DEF Viewpoint1 Viewpoint {
+        orientation 0.0 0.0 1.0 3.14
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "N_Plan_view"
+    }
+    DEF Viewpoint2 Viewpoint {
+        orientation -3.014685687317851E-4 0.37857385554150824 0.9255710372035066 3.140118539509967
+        position 12000.0 27298.85309033011 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "N_Perspective"
+    }
+    DEF Viewpoint3 Viewpoint {
+        orientation 0.0 0.0 1.0 2.355
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "NE_Plan_view"
+    }
+    DEF Viewpoint4 Viewpoint {
+        orientation 0.08283432629493459 0.20031806045303577 0.8595884266800603 2.347531528388166
+        position 17448.85309033011 27298.85309033011 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "NE_Perspective"
+    }
+    DEF Viewpoint5 Viewpoint {
+        orientation 0.0 0.0 1.0 1.57
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "E_Plan_view"
+    }
+    DEF Viewpoint6 Viewpoint {
+        orientation 0.3540166609080642 0.3542986861680243 0.86553142333431 1.713920443047123
+        position 17448.85309033011 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "E_Perspective"
+    }
+    DEF Viewpoint7 Viewpoint {
+        orientation 0.0 0.0 1.0 0.785
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "SE_Plan_view"
+    }
+    DEF Viewpoint8 Viewpoint {
+        orientation 0.40405265909743077 0.16745833980855226 0.7182483644751573 1.020168742035649
+        position 17448.85309033011 16401.14690966989 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "SE_Perspective"
+    }
+    DEF Viewpoint9 Viewpoint {
+        orientation 0.0 0.0 1.0 0.0
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "S_Plan_view"
+    }
+    DEF Viewpoint10 Viewpoint {
+        orientation 1.0 0.0 0.0 0.7765100042643447
+        position 12000.0 16401.14690966989 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "S_Perspective"
+    }
+    DEF Viewpoint11 Viewpoint {
+        orientation 0.0 0.0 1.0 -0.785
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "SW_Plan_view"
+    }
+    DEF Viewpoint12 Viewpoint {
+        orientation 0.40405265909743077 -0.16745833980855226 -0.7182483644751573 1.020168742035649
+        position 6551.146909669889 16401.14690966989 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "SW_Perspective"
+    }
+    DEF Viewpoint13 Viewpoint {
+        orientation 0.0 0.0 1.0 -1.57
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "W_Plan_view"
+    }
+    DEF Viewpoint14 Viewpoint {
+        orientation 0.3540166609080642 -0.3542986861680243 -0.86553142333431 1.713920443047123
+        position 6551.146909669889 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "W_Perspective"
+    }
+    DEF Viewpoint15 Viewpoint {
+        orientation 0.0 0.0 1.0 -2.355
+        position 12000.0 21850.0 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "NW_Plan_view"
+    }
+    DEF Viewpoint16 Viewpoint {
+        orientation 0.08283432629493459 -0.20031806045303577 -0.8595884266800603 2.347531528388166
+        position 6551.146909669889 27298.85309033011 5452.843365077624
+        fieldOfView 0.8
+        jump FALSE
+        description "NW_Perspective"
+    }
+DEF model Transform {
+    center 12000.0 21850.0 100.0
+    scale 1 1 1
+    children [
+        DEF model1 Group {
+            children [
+                DEF XYAxis Switch {
+                    whichChoice -1
+                    choice [
+                        DEF XYAxis_In Inline {
+                            bboxCenter 12000.0 21850.0 100.0
+                            bboxSize 8000.0 7400.0 2200.0
+                            url [ "GridXY_Model_Movable.wrl" ]
+                        }
+                        Group {},
+                    ]
+                }
+                DEF YZAxis Switch {
+                    whichChoice -1
+                    choice [
+                        DEF YZAxis_In Inline {
+                            bboxCenter 12000.0 21850.0 100.0
+                            bboxSize 8000.0 7400.0 2200.0
+                            url [ "GridYZ_Model_Movable.wrl" ]
+                        }
+                        Group {},
+                    ]
+                }
+                DEF XZAxis Switch {
+                    whichChoice -1
+                    choice [
+                        DEF XZAxis_In Inline {
+                            bboxCenter 12000.0 21850.0 100.0
+                            bboxSize 8000.0 7400.0 2200.0
+                            url [ "GridXZ_Model_Movable.wrl" ]
+                        }
+                        Group {},
+                    ]
+                }
+                DEF TextureFamily Switch {
+                    whichChoice -1
+                    choice [
+                    ]
+                }
+                DEF Green Switch {
+                    whichChoice -1
+                    choice [
+                        DEF Green_In Green_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF LowerPink Switch {
+                    whichChoice -1
+                    choice [
+                        DEF LowerPink_In LowerPink_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF Plum Switch {
+                    whichChoice -1
+                    choice [
+                        DEF Plum_In Plum_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF LowerGrey Switch {
+                    whichChoice -1
+                    choice [
+                        DEF LowerGrey_In LowerGrey_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF UpperGrey Switch {
+                    whichChoice -1
+                    choice [
+                        DEF UpperGrey_In UpperGrey_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF Orange Switch {
+                    whichChoice -1
+                    choice [
+                        DEF Orange_In Orange_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF UpperPink Switch {
+                    whichChoice -1
+                    choice [
+                        DEF UpperPink_In UpperPink_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF Blue Switch {
+                    whichChoice -1
+                    choice [
+                        DEF Blue_In Blue_proto {
+                        },
+                        Group {},
+                    ]
+                }
+                DEF Cover Switch {
+                    whichChoice -1
+                    choice [
+                        DEF Cover_In Cover_proto {
+                        },
+                        Group {},
+                    ]
+                }
+            ]
+        }
+    ]
+}
+DEF Start TimeSensor {
+    loop TRUE
+    enabled FALSE
+}
+ROUTE Start.time_changed TO clock.set_startTime
+ROUTE Start.time_changed TO Start.set_stopTime
+ROUTE ModelScale.value_changed TO model.set_scale
+ROUTE clock.fraction_changed TO ModelScale.set_fraction
+ROUTE AnimateTIS.fraction_changed TO AnimateOI.set_fraction
+ROUTE AnimateOI.value_changed TO model.rotation
+ROUTE TextureFamily.whichChoice  TO Green_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO LowerPink_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO Plum_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO LowerGrey_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO UpperGrey_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO Orange_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO UpperPink_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO Blue_In.selectTextureFamily
+ROUTE TextureFamily.whichChoice  TO Cover_In.selectTextureFamily

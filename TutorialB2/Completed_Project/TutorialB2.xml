@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<Project3DEdit xmlns="http://www.geomodeller.com/geo" projectName="CaseStudyB" author="" version="1.0" description="" date="13/ 2/2006 17:22:36" CoordSystem="Local" unit="M" precision="1" deflection2d="0.001" deflection3d="0.001" discretisation="10" pickingFactor="1" dynamicSelection="true" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <Extent3DOfProject>
+    <ExtentBox3D>
+      <Extent3D>
+        <ExtentXY Xmin="10000" Ymin="20000" Xmax="14000" Ymax="23700"/>
+        <ExtentZ Zmin="-1000" Zmax="100"/>
+      </Extent3D>
+      <GraphicTitle Title="CaseStudyB">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+        <Location>
+          <gml:coordinates>10000,20000,-1000</gml:coordinates>
+        </Location>
+      </GraphicTitle>
+      <GraphicBox3d>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicBox3d>
+      <GraphicTick OnOff="true" DensityAlongX="3" DensityAlongY="3" DensityAlongZ="2" TickLength="148">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicTick>
+      <GraphicLabel OnOff="true" LabelFormat="%.1f">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicLabel>
+    </ExtentBox3D>
+    <TriAxis>
+      <Axis3DDefinition OnOff="true" Radius="20" Step="400" Size="80" LabelOrigin="" LabelX="" LabelY="" LabelZ="">
+        <gml:Point>
+          <gml:coordinates>9600,19600,-1000</gml:coordinates>
+        </gml:Point>
+        <Length LengthX="400" LengthY="400" LengthZ="400"/>
+      </Axis3DDefinition>
+      <GraphicOrigin>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicOrigin>
+      <GraphicAxisX>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisX>
+      <GraphicAxisY>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisY>
+      <GraphicAxisZ>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisZ>
+    </TriAxis>
+  </Extent3DOfProject>
+
+  <Formations>
+    <Formation Name="Blue">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="237" Green="133" Red="28"/>
+        <ColorWireFrame Blue="237" Green="133" Red="28"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Cover">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="112" Green="255" Red="202"/>
+        <ColorWireFrame Blue="112" Green="255" Red="202"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Green">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="49" Green="205" Red="49"/>
+        <ColorWireFrame Blue="49" Green="205" Red="49"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="LowerGrey">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="204" Green="204" Red="204"/>
+        <ColorWireFrame Blue="204" Green="204" Red="204"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="LowerPink">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="154" Green="211" Red="255"/>
+        <ColorWireFrame Blue="154" Green="211" Red="255"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Orange">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="73" Green="154" Red="237"/>
+        <ColorWireFrame Blue="73" Green="154" Red="237"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Plum">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="117" Green="15" Red="205"/>
+        <ColorWireFrame Blue="117" Green="15" Red="205"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="UpperGrey">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="153" Green="153" Red="153"/>
+        <ColorWireFrame Blue="153" Green="153" Red="153"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="UpperPink">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="184" Green="174" Red="255"/>
+        <ColorWireFrame Blue="184" Green="174" Red="255"/>
+      </Graphic>
+    </Formation>
+  </Formations>
+
+  <Faults>
+    <Fault Name="ENE">
+      <FaultGeology RADIUS_OF_INFLUENCE="0" THICKNESS="0" DIP="0" BEARING="0" RHEOLOGY="0" TYPE_NOT_IN_USE=""/>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="68" Green="138" Red="0"/>
+        <ColorWireFrame Blue="68" Green="138" Red="0"/>
+      </Graphic>
+    </Fault>
+    <Fault Name="WNW">
+      <FaultGeology RADIUS_OF_INFLUENCE="0" THICKNESS="0" DIP="0" BEARING="0" RHEOLOGY="0" TYPE_NOT_IN_USE=""/>
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="112" Green="24" Red="24"/>
+        <ColorWireFrame Blue="112" Green="24" Red="24"/>
+      </Graphic>
+      <StopsOnFault Name="ENE"/>
+    </Fault>
+  </Faults>
+
+  <Sections>
+    <Section Name="Map_DTM" IsAxialSurface="false" Description="Topography of the model.">
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="211" Green="0" Red="147"/>
+        <ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </Graphic>
+      <Structural2DData>
+        <Foliations>
+          <Foliation>
+            <FoliationObservation Azimuth="322" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12014,21541.6</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="157" Dip="14" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>10612.1,22887.4</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="163" Dip="14" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>11873.8,23181.8</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="161" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>11243,22733.2</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="162" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>10780.4,22340.7</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="UpperPink"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="316" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>10850.5,21892.1</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Blue"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="294" Dip="15" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13163.6,22859.4</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="309" Dip="21" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12588.8,22186.5</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="322" Dip="18" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>11537.4,21793.9</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Orange"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="161" Dip="19" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12967.3,20546.2</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="UpperGrey"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="158" Dip="19" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13247.7,21093</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="Plum"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="151" Dip="21" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13486,21597.7</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="LowerPink"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="341" Dip="90" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>12532.7,22284.6</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="ENE"/>
+          </Foliation>
+          <Foliation>
+            <FoliationObservation Azimuth="61" Dip="90" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>13570.1,21093</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <Data Name="WNW"/>
+          </Foliation>
+        </Foliations>
+        <Interfaces>
+          <Interface>
+            <Data Name="Plum"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11580.7,21219 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11308,21034.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">11131.1,20835.8 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Orange"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10674.2,20607.3 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="UpperPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10349.9,20349.3 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Blue"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10065.4,20279.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10149.5,23518.2 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerPink"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13142.7,22391.8 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="Green"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13370.8,22211.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13906.6,21008.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="LowerGrey"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13724.3,20111.7 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="ENE"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10892.5,21793.9 11565.4,21962.2 12434.6,22214.5 12827.1,22340.7 13247.7,22508.9 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+          <Interface>
+            <Data Name="WNW"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">13107.5,21990.2 13345.8,21485.5 13584.1,21050.9 13934.6,20532.2 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+        </Interfaces>
+      </Structural2DData>
+      <Shape3DOfSection FileName="TutorialB2_Map_DTM.sec"/>
+      <ImageUnderLays>
+        <ImageUnderLay Filename="FieldGeologyWithCOVER.jpg">
+          <ExtentUV Umin="10000" Vmin="20000" Umax="14000" Vmax="23700"/>
+        </ImageUnderLay>
+      </ImageUnderLays>
+    </Section>
+  </Sections>
+
+  <GeologicalModel SimplificationRadius="10">
+    <Extent3D>
+      <ExtentXY Xmin="10000" Ymin="20000" Xmax="14000" Ymax="23700"/>
+      <ExtentZ Zmin="-1000" Zmax="100"/>
+    </Extent3D>
+    <ProjectStratigraphicColumn IsBase="false">
+      <Series name="Case_B_Series" relation="1" isUptodate="false">
+        <Data Name="Green"/>
+        <Data Name="LowerPink"/>
+        <Data Name="Plum"/>
+        <Data Name="LowerGrey"/>
+        <Data Name="UpperGrey"/>
+        <Data Name="Orange"/>
+        <Data Name="UpperPink"/>
+        <Data Name="Blue"/>
+        <InfluencedByFault Name="ENE"/>
+        <InfluencedByFault Name="WNW"/>
+      </Series>
+      <Series name="Case_B_Cover" relation="1" isUptodate="false">
+        <Data Name="Cover"/>
+      </Series>
+    </ProjectStratigraphicColumn>
+  </GeologicalModel>
+
+  <ProvenanceTable>
+    <Head>
+      <Variable Name="Rank"/>
+      <Variable Name="Provenance"/>
+    </Head>
+    <Result>
+      <Row>"0","Unspecified"</Row>
+      <Row>"1","Observed"</Row>
+      <Row>"2","Inferred"</Row>
+      <Row>"3","Interpreted"</Row>
+      <Row>"4","ModelConstructor"</Row>
+    </Result>
+  </ProvenanceTable>
+
+</Project3DEdit>
