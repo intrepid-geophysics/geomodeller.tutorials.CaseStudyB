@@ -1,1 +1,1 @@
-# geomodeller.tutorials.CaseStudyB
+# GeoModeller CaseStudyB (Antonio's map)
